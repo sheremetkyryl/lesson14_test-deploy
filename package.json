@@ -1,0 +1,26 @@
+{
+  "name": "lesson14_test-deploy",
+  "version": "1.0.0",
+  "description": "lesson 14 deploy",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheremetkyryl/lesson14_test-deploy.git"
+  },
+  "keywords": [],
+  "author": "Sheremet Kyryl <kruisher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheremetkyryl/lesson14_test-deploy/issues"
+  },
+  "homepage": "https://github.com/sheremetkyryl/lesson14_test-deploy#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
+
+
